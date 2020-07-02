@@ -1,0 +1,27 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d157f0c0e9f843aeaa2576e22f474fe7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipeline_tb_behav xil_defaultlib.pipeline_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'D_JR' [C:/Archlabs/lab06/lab06.srcs/sources_1/imports/sources_1/new/Top.v:150]
+WARNING: [VRFC 10-3283] element index 81 into 'writedata' is out of bounds [C:/Archlabs/lab06/lab06.srcs/sources_1/imports/sources_1/imports/Archlabs/lab04/lab04.srcs/sources_1/new/datamem.v:91]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Instmemory
+Compiling module xil_defaultlib.Ctr
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.ALUcontrol
+Compiling module xil_defaultlib.forward_unit
+Compiling module xil_defaultlib.stall_unit
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.MUX3
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.datamem
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.pipeline_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipeline_tb_behav
